@@ -3,3 +3,7 @@
 *.pyc
 .vscode
 demo-img
+webapp/train_data
+.idea
+webapp/images-input
+webapp/images-output
