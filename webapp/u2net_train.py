@@ -52,7 +52,8 @@ model_name = 'u2net'  # 'u2netp'
 
 # data_dir = os.path.join(os.getcwd(), 'train_data' + os.sep)
 # data_dir = os.path.join('/content/drive/MyDrive/', 'train_data' + os.sep)
-data_dir = os.path.join('/home/u2021213559/', 'train_data' + os.sep)
+# data_dir = os.path.join('/home/u2021213559/', 'train_data' + os.sep)
+data_dir = os.path.join('/root/autodl-fs', 'train_data' + os.sep)
 print(data_dir)
 tra_image_dir = os.path.join('DUTS', 'DUTS-TR', 'DUTS-TR', 'im_aug' + os.sep)
 tra_label_dir = os.path.join('DUTS', 'DUTS-TR', 'DUTS-TR', 'gt_aug' + os.sep)
@@ -62,7 +63,7 @@ label_ext = '.png'
 
 model_dir = os.path.join(os.getcwd(), 'saved_models', model_name + os.sep)
 
-epoch_num = 100000
+epoch_num = 1000
 batch_size_train = 12
 batch_size_val = 1
 train_num = 0
